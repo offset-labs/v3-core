@@ -1,20 +1,20 @@
 {
-  "name": "@uniswap/v3-core",
-  "description": "🦄 Core smart contracts of Uniswap V3",
-  "license": "BUSL-1.1",
+  "name": "@offsetcarbon/v3-core",
+  "description": "🦄 Core smart contracts of OffsetCarbon V3",
+  "license": "GPL-2.0",
   "publishConfig": {
     "access": "public"
   },
   "version": "1.0.1",
-  "homepage": "https://uniswap.org",
+  "homepage": "https://offsetcarbon.xyz",
   "keywords": [
-    "uniswap",
+    "offsetcarbon",
     "core",
     "v3"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/offset-labs/v3-core"
+    "url": "git+https://github.com/offset-labs/v3-core.git"
   },
   "files": [
     "contracts/interfaces",
@@ -27,7 +27,6 @@
   "engines": {
     "node": ">=10"
   },
-  "dependencies": {},
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-etherscan": "^2.1.8",
@@ -55,5 +54,13 @@
   "scripts": {
     "compile": "hardhat compile",
     "test": "hardhat test"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/offset-labs/v3-core/issues"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "Offset Labs"
 }
